@@ -19,8 +19,7 @@ class ViewController: UIViewController {
         let member = nameTextField.text!
         
         // MARK: -   1️⃣ تحت الخط membersNamesArray إلي المصفوفه memberقم بإضافة المتغير
-        membersNamesArray.append(member)
-        
+         
         
         
         // MARK: -   النهاية
@@ -35,8 +34,8 @@ class ViewController: UIViewController {
         
         // MARK: -  4️⃣ functionCall داخل المتغير  secretNameLetter قم باستدعاء الدالة
         
-        var functionCall = ""
-        
+        let functionCall = secretNameLetter(membernamearray: membersNamesArray)
+
         
         // MARK: -   النهاية
         
